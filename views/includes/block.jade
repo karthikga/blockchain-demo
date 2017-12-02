@@ -16,7 +16,7 @@
     .form-group
       label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}data') #{__('Data')}:
       .col-sm-10
-        textarea.form-control(id='block#{block.block}chain#{block.chain}data', rows='10', onkeyup='updateChain(#{block.block}, #{block.chain});')
+        textarea.form-control(id='block#{block.block}chain#{block.chain}data', rows='5', onkeyup='updateChain(#{block.block}, #{block.chain});')
 
     #state.form-group
       label.col-sm-2.control-label(for='block#{block.block}chain#{block.chain}previous') #{__('Prev')}:

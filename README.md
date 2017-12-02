@@ -1,18 +1,14 @@
 # Blockchain Demo
 A web-based demonstration of blockchain concepts.
 
-[![Blockchain 101 - Demo](https://img.youtube.com/vi/_160oMzblY8/0.jpg)](https://www.youtube.com/watch?v=_160oMzblY8)
 
-This is a very basic visual introduction to the concepts behind a blockchain. We introduce 
-the idea of an immutable ledger using an interactive web demo that is available here:
-
-http://anders.com/blockchain/
+This is a very basic visual introduction to the concepts behind a blockchain.
 
 ## Setup
 Get the code:
 
 ```
-git clone https://github.com/anders94/blockchain-demo.git
+git clone https://github.com/karthikga/blockchain-demo.git
 ```
 
 Install dependencies:
@@ -38,7 +34,7 @@ http://localhost:3000
 Get the code:
 
 ```
-git clone https://github.com/anders94/blockchain-demo.git
+git clone https://github.com/karthikga/blockchain-demo.git
 ```
 
 Run the Docker setup:
@@ -70,8 +66,10 @@ with a difficulty of 6, the first nonce that works is `8719932` yielding a hash 
 In the production bitcoin blockchain, block `458091` has the hash digest
 `00000000000000000000011246f099d94f91628d71c9d75ad2f9a06e2beb7e92`. That's 21 zeros in a row!
 
-## Send Thanks
+TODO:
 
-![](public/images/qr.png)
+ - Extend this demo run on multiple Docker Containers ( for different Peers ) and also share the mined block with other peers in a seemless manner with collision-proofing and tamper-proofing. ( may be each docker node's ID be used.. ? )
 
-Bitcoin greatfully accepted: `1K3NvcuZzVTueHW1qhkG2Cm3viRkh2EXJp`
+ - Also introduce some search mechanism for the coinbase transaction to locate one person's total worth from the beginning of time, after validating with couple of other peers as well...
+ 
+any thoughts and ideas are welcome..
